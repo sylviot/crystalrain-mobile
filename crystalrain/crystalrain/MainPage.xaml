@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:crystalrain"
+             x:Class="crystalrain.MainPage">
+
+
+    <AbsoluteLayout BackgroundColor="Black">
+
+
+        <Label x:Name="crystalrain"
+               Text="CRYSTAL RAIN"
+               FontAttributes="Bold"
+               Font="Large"
+               TextColor="White"
+               HorizontalTextAlignment="Center" 
+               AbsoluteLayout.LayoutBounds=".5,100,1,68" 
+               AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" />
+
+        <AbsoluteLayout AbsoluteLayout.LayoutBounds="0,1,1,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" BackgroundColor="Green">
+            <Button x:Name="google"
+                BackgroundColor="Red"
+                FontSize="20"
+                TextColor="White"
+                Text="Google"
+                BorderRadius="0"
+                AbsoluteLayout.LayoutBounds="0,1,1,1"
+                AbsoluteLayout.LayoutFlags="All"
+                Clicked="Google_Clicked" />
+        </AbsoluteLayout>
+    </AbsoluteLayout>
+
+
+
+
+</ContentPage>
