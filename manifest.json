@@ -1,7 +1,7 @@
 {
   "name": "Crystal Rain",
   "short_name": "CrystalRain",
-  "start_url": ".",
+  "start_url": "/crystalrain-mobile/index.html?utm_source=homescreen",
   "display": "standalone",
   "background_color": "#fff",
   "description": "A web game.",
