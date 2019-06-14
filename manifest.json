@@ -1,0 +1,14 @@
+{
+  "name": "Crystal Rain",
+  "short_name": "CrystalRain",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A web game.",
+  "icons": [{
+    "src": "images/touch/homescreen48.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }],
+  "related_applications": [{ "platform": "web" }]
+}
